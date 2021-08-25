@@ -5,20 +5,9 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 适合的包可不多啊  
 
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+|包名| 软件名 | git地址      | 备注 |
+| :------     |: ------: | ------:     |------ |
+|luci-app-ssr-plus     |hellowall      |https://github.com/fw876/helloworld.git|  |
+|luci-app-vssr         |HelloWorld     |https://github.com/jerrykuku/luci-app-vssr.git|  |
+|luci-app-openclash    |OpenClash      |https://github.com/vernesong/OpenClash.git||
 
-| Syntax      | Description | Syntax      | Description |
-| ------     | ------ | ------     |------ |
-luci-app-ssr-plus     hellowall      https://github.com/fw876/helloworld.git  
-luci-app-vssr         HelloWorld     https://github.com/jerrykuku/luci-app-vssr.git  
-luci-app-openclash    OpenClash      https://github.com/vernesong/OpenClash.git  
-
-
-
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
