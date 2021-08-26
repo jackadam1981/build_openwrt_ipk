@@ -17,6 +17,6 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 
 
 更新一些可以下载包的地址：
-http://repo.elecity.top:8880/openwrt/
-https://op.supes.top/
-http://openwrt-dist.sourceforge.net/
+http://repo.elecity.top:8880/openwrt/  
+https://op.supes.top/  
+http://openwrt-dist.sourceforge.net/  
