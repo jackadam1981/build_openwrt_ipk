@@ -11,9 +11,14 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 |luci-app-vssr         |HelloWorld     |https://github.com/jerrykuku/luci-app-vssr.git      | ![更新图标2](https://img.shields.io/github/last-commit/jerrykuku/luci-app-vssr )  |
 |luci-app-passwall| openwrt-passwall|https://github.com/xiaorouji/openwrt-passwall.git    | ![更新图标2](https://img.shields.io/github/last-commit/xiaorouji/openwrt-passwall )  |
 |luci-app-openclash    |OpenClash      |https://github.com/vernesong/OpenClash.git           | ![更新图标3](https://img.shields.io/github/last-commit/vernesong/OpenClash )      |  
-|luci-app-bypass    |bypass      |https://github.com/kiddin9/openwrt-bypass.git           | ![更新图标3](https://img.shields.io/github/last-commit/kiddin9/openwrt-bypass )  
+|luci-app-bypass    |bypass      |https://github.com/kiddin9/openwrt-bypass.git           | ![更新图标3](https://img.shields.io/github/last-commit/kiddin9/openwrt-bypass )  |
 
 还重名了。包名不一样，应该可以区分。
+
+自动编译介绍：   
+|作者|项目地址|最后更新|介绍|
+|MrH723|https://github.com/MrH723/Actions-OpenWrt|||
+
 
 
 更新一些可以下载包的地址：  
