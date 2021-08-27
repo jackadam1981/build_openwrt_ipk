@@ -20,3 +20,28 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 http://repo.elecity.top:8880/openwrt/  
 https://op.supes.top/  
 http://openwrt-dist.sourceforge.net/  
+
+改变内存和闪存大小  
+关于设备内存和闪存的配置，一般位于源码target/linux/ramips/dts/mt7621_phicomm_k2p.dts（K2P示例）  
+编辑DTS文件  
+内存：  
+  memory@0{
+          device_type = "memory";  
+          reg= <0x0 0x8000000>;  
+          };  
+            
+            
+reg = <0x0 0x10000000>; // 256MB RAM  
+reg = <0x0 0x8000000>; // 128MB RAM  
+reg = <0x0 0x4000000>; // 64MB RAM  
+
+flash:  
+  partition@5000{
+                label = "firmware";  
+                reg = <0x50000 0xfb0000>
+                };  
+                
+reg = <0x50000 0x7b0000>; // 8MB flash
+reg = <0x50000 0xfb0000>; // 16MB RAM
+reg = <0x50000 0x1fb0000>; // 32MB RAM       
+           
