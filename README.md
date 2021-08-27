@@ -16,7 +16,7 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 还重名了。包名不一样，应该可以区分。
 
 自动编译介绍：   
-|作者|项目地址|最后更新|介绍|
+|作者|项目地址|最后更新|介绍|  
 |MrH723|https://github.com/MrH723/Actions-OpenWrt| ![更新图标3](https://img.shields.io/github/last-commit/MrH723/Actions-OpenWrt )|适配的很多|
 
 
