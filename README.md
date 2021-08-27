@@ -20,13 +20,14 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 |---|---|---|---|
 |MrH723|https://github.com/MrH723/Actions-OpenWrt| ![更新图标3](https://img.shields.io/github/last-commit/MrH723/Actions-OpenWrt)|适配的很多|
 |kiddin9|https://github.com/kiddin9/OpenWrt_x86-r2s-r4s|![更新图标3](https://img.shields.io/github/last-commit/kiddin9/OpenWrt_x86-r2s-r4s)|适配的不多|
-
+|1orz|https://github.com/1orz/My-action|![更新图标3](https://img.shields.io/github/last-commit/1orz/My-action)|适配不多|
 
 
 更新一些可以下载包的地址：  
 http://repo.elecity.top:8880/openwrt/  
 https://op.supes.top/  
 http://openwrt-dist.sourceforge.net/  
+https://down.cloudorz.com/  
 
 改变内存和闪存大小  
 关于设备内存和闪存的配置，一般位于源码target/linux/ramips/dts/mt7621_phicomm_k2p.dts（K2P示例）  
