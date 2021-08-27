@@ -25,23 +25,26 @@ http://openwrt-dist.sourceforge.net/
 关于设备内存和闪存的配置，一般位于源码target/linux/ramips/dts/mt7621_phicomm_k2p.dts（K2P示例）  
 编辑DTS文件  
 内存：  
-  memory@0{
-          device_type = "memory";  
-          reg= <0x0 0x8000000>;  
-          };  
-            
-            
-reg = <0x0 0x10000000>; // 256MB RAM  
-reg = <0x0 0x8000000>; // 128MB RAM  
-reg = <0x0 0x4000000>; // 64MB RAM  
+```
+memory@0{
+	device_type = "memory";
+	reg= <0x0 0x8000000>;
+};
+```
 
-flash:  
-  partition@5000{
-                label = "firmware";  
-                reg = <0x50000 0xfb0000>
-                };  
-                
+reg = <0x0 0x10000000>; // 256MB RAM
+reg = <0x0 0x8000000>; // 128MB RAM
+reg = <0x0 0x4000000>; // 64MB RAM
+
+闪存FLASH        
+```
+partition@5000{
+	label = "firmware";
+	reg = <0x50000 0xfb0000> }
+;
+```
+
 reg = <0x50000 0x7b0000>; // 8MB flash
 reg = <0x50000 0xfb0000>; // 16MB RAM
-reg = <0x50000 0x1fb0000>; // 32MB RAM       
+reg = <0x50000 0x1fb0000>; // 32MB RAM
            
