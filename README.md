@@ -59,3 +59,51 @@ reg = <0x50000 0x7b0000>; // 8MB flash
 reg = <0x50000 0xfb0000>; // 16MB RAM  
 reg = <0x50000 0x1fb0000>; // 32MB RAM  
            
+介绍一下openwrt 源码补丁的概念  
+像上面改FLASH大小的工作，不能每次都去改啊。那么就发明了补丁，补丁在，执行命令，可以实现自动修改相关源码。  
+手边只有一个K2是修改过FLASH的，8M改了16M。   
+那么需要修改的配置文件是：/openwrt/target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts
+
+创建补丁：   
+将1218b.dts复制一份重命名为1218c.dts，修改
+```
+将   reg = <0x50000 0x7b0000>;
+改为 reg = <0x50000 0xfb0000>; 
+````
+在openwrt目录执行：  
+```
+#diff  老文件 新文件 -u > 补丁文件名
+diff target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts target/linux/ramips/dts/mt7620a_phicomm_psg1218c.dts -u >k2_16m.patch
+```
+既可生成补丁，但是生成的补丁还需要修改一下：
+自动生成：
+```
+--- target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts	2021-08-28 19:12:54.000000000 +0800
++++ target/linux/ramips/dts/mt7620a_phicomm_psg1218c.dts	2021-08-28 17:12:41.605830913 +0800
+@@ -9,6 +9,6 @@
+ 	partition@50000 {
+ 		compatible = "denx,uimage";
+ 		label = "firmware";
+-		reg = <0x50000 0x7b0000>; 
++		reg = <0x50000 0xfb0000>; 
+ 	};
+ };
+
+```
+修改为：
+```
+--- target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts
++++ target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dt
+@@ -9,6 +9,6 @@
+ 	partition@50000 {
+ 		compatible = "denx,uimage";
+ 		label = "firmware";
+-		reg = <0x50000 0x7b0000>; 
++		reg = <0x50000 0xfb0000>; 
+ 	};
+ };
+
+```
+主要是修改+++那行的文件名，删除多余的时间标记。
+
+打补丁：  
