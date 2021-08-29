@@ -8,7 +8,7 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 |包名|LUCI服务名|git地址|更新|备注|
 |------|------|------|------|------|
 |luci-app-ssr-plus|ShadowSocksRPlus+|https://github.com/fw876/helloworld.git|![更新图标1](https://img.shields.io/github/last-commit/fw876/helloworld)|历史悠久的ssrp+|
-|luci-app-vssr|HelloWorld|https://github.com/jerrykuku/luci-app-vssr.git|![更新图标2](https://img.shields.io/github/last-commit/jerrykuku/luci-app-vssr)|基于SSRP+,增加了一些方便的服务状态，目的地可访问状态。支持七组分流，可以给七组分配不同的服务器|
+|luci-app-vssr|HelloWorld|https://github.com/jerrykuku/luci-app-vssr.git|![更新图标2](https://img.shields.io/github/last-commit/jerrykuku/luci-app-vssr)|基于SSRP+,增加了一些方便的服务状态，目的地可访问状态。支持七组分流，可以给七组分配不同的服务器,只适配最新版 argon主题|
 |luci-app-passwall|PassWall|https://github.com/xiaorouji/openwrt-passwall.git|![更新图标2](https://img.shields.io/github/last-commit/xiaorouji/openwrt-passwall)||
 |luci-app-bypass|bypass|https://github.com/kiddin9/openwrt-bypass.git|![更新图标3](https://img.shields.io/github/last-commit/kiddin9/openwrt-bypass)||
 |luci-app-openclash|OpenClash|https://github.com/vernesong/OpenClash.git|![更新图标3](https://img.shields.io/github/last-commit/vernesong/OpenClash)||
