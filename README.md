@@ -5,11 +5,11 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 适合的包可不多啊  
 
 
-|包名                   | 软件名         | git地址                                               | 备注    |  
+|包名                   | LUCI服务名         | git地址                                               | 备注    |  
 |------               |------     | ------                                              |------  |  
 |luci-app-ssr-plus|ShadowSocksR Plus+|https://github.com/fw876/helloworld.git            | ![更新图标1](https://img.shields.io/github/last-commit/fw876/helloworld )          |  
 |luci-app-vssr         |Hello World|https://github.com/jerrykuku/luci-app-vssr.git      | ![更新图标2](https://img.shields.io/github/last-commit/jerrykuku/luci-app-vssr )  |
-|luci-app-passwall| openwrt-passwall|https://github.com/xiaorouji/openwrt-passwall.git    | ![更新图标2](https://img.shields.io/github/last-commit/xiaorouji/openwrt-passwall )  |
+|luci-app-passwall| Pass Wall|https://github.com/xiaorouji/openwrt-passwall.git    | ![更新图标2](https://img.shields.io/github/last-commit/xiaorouji/openwrt-passwall )  |
 |luci-app-openclash    |OpenClash      |https://github.com/vernesong/OpenClash.git           | ![更新图标3](https://img.shields.io/github/last-commit/vernesong/OpenClash )      |  
 |luci-app-bypass    |bypass      |https://github.com/kiddin9/openwrt-bypass.git           | ![更新图标3](https://img.shields.io/github/last-commit/kiddin9/openwrt-bypass )  |
 
