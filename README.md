@@ -12,7 +12,7 @@ openwrt官方已经升级到21.02.rc4了，可我们的几位大佬还坚守在1
 |luci-app-bypass|bypass|https://github.com/kiddin9/openwrt-bypass.git|![更新图标3](https://img.shields.io/github/last-commit/kiddin9/openwrt-bypass)|看起来也是基于SSRP+,支持游戏模式UDP中继，支持Netflix 分流服务器，智能代理SmartDNS ChinaDNS-NG ,支持FPU组件升级。|
 |luci-app-passwall|PassWall|https://github.com/xiaorouji/openwrt-passwall.git|![更新图标2](https://img.shields.io/github/last-commit/xiaorouji/openwrt-passwall)|也不知道和Lienol大有没有关系|
 
-|luci-app-openclash|OpenClash|https://github.com/vernesong/OpenClash.git|![更新图标3](https://img.shields.io/github/last-commit/vernesong/OpenClash)||
+|luci-app-openclash|OpenClash|https://github.com/vernesong/OpenClash.git|![更新图标3](https://img.shields.io/github/last-commit/vernesong/OpenClash)|??????|
 
 
 还重名了。包名不一样，应该可以区分。
