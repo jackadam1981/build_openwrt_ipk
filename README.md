@@ -94,7 +94,7 @@ diff target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts target/linux/ramips/dt
 修改为：
 ```
 --- target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts
-+++ target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dt
++++ target/linux/ramips/dts/mt7620a_phicomm_psg1218b.dts
 @@ -9,6 +9,6 @@
  	partition@50000 {
  		compatible = "denx,uimage";
